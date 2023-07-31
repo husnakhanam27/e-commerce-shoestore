@@ -1,0 +1,398 @@
+ < !DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoesy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img
+          class="imagesize"
+          src="https://i.pinimg.com/564x/4c/c2/54/4cc254a3a12598f07d6959f258334466.jpg">
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link size" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href="#productSection">Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link size" href="#cat">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link size" href="#new">New Arrivals</a>
+          </li>
+          <div>
+            <li class="nav-item">
+              <a class="nav-link size" href="#contact">Contact us</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="ml-auto">
+        <p>
+          <a href="#cart">
+            <img
+              class="imagesize1"
+              src="https://i.pinimg.com/564x/4c/c2/54/4cc254a3a12598f07d6959f258334466.jpg"
+            />
+          </a>
+        </p>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://i.pinimg.com/564x/fc/9d/fd/fc9dfd2abb47d134bc10377476299313.jpg"
+            class="d-block w-100"
+            alt="Image 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.pinimg.com/564x/ba/7b/64/ba7b64a656001c68a090b3531b6486d5.jpg"
+            class="d-block w-100"
+            alt="Image 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://i.pinimg.com/564x/b5/e3/3b/b5e33b8f97941536b80d4fafe21c1044.jpg"
+            class="d-block w-100"
+            alt="Image 3"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div>
+      <img
+        class="m"
+        src="https://i.pinimg.com/originals/1d/63/bc/1d63bc0a5de1f2d0b69d9443c6725986.gif"
+      />
+    </div>
+
+    <div>
+      <h1 id="productSection" class="heading">Featured Products</h1>
+      <div class="imgs d-flex flex-row justify-content-between">
+        <img
+          src="https://i.pinimg.com/564x/63/2c/43/632c43f96528543d135c516fd12e4c66.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/564x/6c/a8/e7/6ca8e7b85f771aa3db355eb34b052276.jpg"
+          
+        />
+        <img src="https://i.pinimg.com/564x/b6/48/7a/b6487a66d60af96462e949f7c96b4eb3.jpg" alt="">
+        <img src="https://i.pinimg.com/564x/7d/42/34/7d4234fd735c9ebcd9568565fb03612e.jpg" alt="">
+        <img src="https://i.pinimg.com/564x/f4/23/59/f4235933b405e93c93e9b4d78cdd39d3.jpg" alt="">
+        <img src="https://i.pinimg.com/564x/c0/e7/56/c0e75641776a82e7682d928c39759e7c.jpg" alt="">
+       
+      </div>
+    </div>
+
+    <div>
+      <h1 id="cat" class="heading">Top Categories</h1>
+      <div class="d-flex flex-row">
+        <div class="m-5">
+          <img
+            src="https://i.pinimg.com/564x/55/0f/80/550f802d9ea829f945ace4763442ce27.jpg"
+          />
+
+          <p class="sub-head text-center">RUNNING</p>
+          <div class="text-center">
+            <button id="runningBtn" class="btn btn-primary">shop Now</button>
+          </div>
+        </div>
+        
+        <div class="m-5">
+          <img
+            src="https://i.pinimg.com/564x/f4/de/e0/f4dee06ea7b99c6bf4159e5106bd88cd.jpg"
+          />
+
+          <p class="sub-head text-center">SPORTSTYLE</p>
+          <div class="text-center">
+            <button id="sportBtn" class="btn btn-primary">shop Now</button>
+          </div>
+        </div>
+
+        <div class="m-5">
+          <img
+            src="https://i.pinimg.com/564x/0e/44/16/0e44167f7170f82cd385e122864cfa28.jpg"
+          />
+
+          <p class="sub-head text-center"> APPAREL</p>
+          <div class="text-center">
+            <button id="apparelBtn" class="btn btn-primary">shop Now</button>
+          </div>
+        </div>
+        <div class="m-5">
+          <img
+            src="https://i.pinimg.com/564x/7b/91/17/7b9117ac0861401ec60a9b20697d9802.jpg"
+          />
+
+          <p class="sub-head text-center">PERFORMANCE</p>
+          <div class="text-center">
+            <button id="performanceBtn" class="btn btn-primary">shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h1 id="new" class="heading">NEW ARRIVALS</h1>
+      <div class="d-flex flex-row">
+        <div>
+          <img src="https://i.pinimg.com/564x/ad/6e/84/ad6e848f365c12273a4736b9b2618509.jpg" alt="">
+        </div>
+        <div>
+          <img
+            src="https://i.pinimg.com/564x/ff/2c/80/ff2c80b909e4e0544038ce69215ba322.jpg"
+          />
+        </div>
+        <div>
+          <img src="https://i.pinimg.com/564x/71/da/dd/71daddab2438da6a3911b6f6179bfbfb.jpg" alt="">
+        </div>
+        <div>
+          <img
+            src="https://i.pinimg.com/564x/1e/f6/32/1ef632355916f64a5c0b6fe965122b2f.jpg"
+          />
+        
+        </div>
+        
+    </div>
+    <h1 class="heading mt-4">RECOMMENDED PRODUCTS</h1>
+
+    <div class="d-flex flex-row justify-content-between">
+      <div class="bg shadow">
+        <img
+          src="https://i.pinimg.com/564x/13/a8/a2/13a8a27e736361a2a168bd2c193b7d1a.jpg"
+          alt="Product 1"
+          class="image"
+        />
+        <h4>GEL-KAYANO 29</h4>
+        <p class="main">
+          The GEL-KAYANO® 29 shoe creates a stable running experience and a more
+          responsive feel underfoot.
+        </p>
+        <p class="main">$49.99</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://i.pinimg.com/564x/1b/89/46/1b894684d7f7275f6d98435882d58929.jpg"
+          alt="Product 2"
+          class="image"
+        />
+        <h4>METASPEED EDGE+</h4>
+        <p class="main">
+          The METASPEED™ EDGE+ racing shoes are designed for cadence-style
+          runners who are looking to start fast and finish faster.
+        </p>
+        <p class="main">$59.99</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="2">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://i.pinimg.com/564x/ee/4b/7a/ee4b7a6bc4118a6d9b0ab80330ca9262.jpg"
+          alt="Product 3"
+          class="image"
+        />
+        <h4>MAGIC SPEED 2</h4>
+        <p class="main">
+          The MAGIC SPEED™ 2 shoe offers the energy you need to move towards a
+          new personal best.
+        </p>
+        <p class="main">$69.99</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://i.pinimg.com/564x/1d/70/f5/1d70f568445d09f6fe4e9ff4f97168cb.jpg"
+          alt="Product41"
+          class="image"
+        />
+        <h4>GEL-QUANTUM 180 VII</h4>
+        <p class="main">
+          "The GEL-QUANTUM 180™ VII sneaker combines a futuristic shape .
+        </p>
+        <p class="main">$79.99</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-between">
+      <div class="bg shadow">
+        <img
+          src="https://i.pinimg.com/564x/43/49/1a/43491a913e81a19c053aed9bf22627eb.jpg"
+          alt="Product 1"
+          class="image"
+        />
+        <h4>GEL-NIMBUS 25</h4>
+        <p class="main">
+          "The GEL-NIMBUS® 25 shoe's soft cushioning properties help you feel
+          like you're landing on clouds.
+        </p>
+        <p class="main">$89.99</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://i.pinimg.com/564x/30/d7/f7/30d7f76502a315de06b090b92c921cad.jpg"
+          alt="Product 2"
+          class="image"
+        />
+        <h4>GEL-KINSEI BLAST</h4>
+        <p class="main">
+          The Gel-Kinsei Blast Shoes Are Designed For Distance Runners Seeking A
+          Smooth Stride. .
+        </p>
+        <p class="main">$99.99</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="2">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://i.pinimg.com/564x/f6/55/1b/f6551ba32925755f8b2312710a6e4711.jpg"
+          alt="Product 3"
+          class="image"
+        />
+        <h4>GEL-KINSEI BLAST LE 2</h4>
+        <p class="main">
+          The Gel-Kinsei Blast Shoes Are Designed For Distance Runners Seeking A
+          Smooth Stride.
+        </p>
+        <p class="main">$95.99</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+      <div class="bg shadow">
+        <img
+          src="https://i.pinimg.com/564x/95/74/6e/95746e32d5ae8cd6348afa00c7fcba4f.jpg"
+          alt="Product41"
+          class="image"
+        />
+        <h4>SOLUTION SWIFT FF</h4>
+        <p class="main">
+          The Fastest Model In The Asics Tennis Range, Our Solution Speed Ff 2
+          Shoe Is All About Helping Players Expand Their Territory On The Court.
+        </p>
+        <p class="main">$97.99</p>
+        <button class="btn btn-primary add-to-cart-btn" data-id="1">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h2 id="cart">Cart</h2>
+      <div id="cart-items"></div>
+      <p>Total items in cart: <span id="cart-count">0</span></p>
+    </div>
+
+    <h1 class="follow-us-section-heading">Follow Us</h1>
+
+    <div class="d-flex flex-row justify-content-center">
+      <div class="follow-us-icon-container">
+        <i class="clr fab fa-twitter icon"></i>
+      </div>
+      <div class="follow-us-icon-container">
+        <i class="clr fab fa-instagram icon"></i>
+      </div>
+      <div class="follow-us-icon-container">
+        <i class="clr fab fa-facebook icon"></i>
+      </div>
+    </div>
+
+    <div id="contact" class="footer-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="https://i.pinimg.com/564x/4c/c2/54/4cc254a3a12598f07d6959f258334466.jpg"
+              class="imagesize"
+            />
+            <h1 class="footer-section-mail-id">shoesy@mail.com</h1>
+            <p class="footer-section-address">
+              454/22,angallu,madanapalli,annamayya district <br> Andhra pradesh
+            </p>
+            <p class="footer-section-address">
+              Contact details:9877 123 123
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
